@@ -8,7 +8,7 @@ services:
   - type: worker
     name: black-hat-md
     runtime: node
-    plan: starter
+    plan: standard
     buildCommand: npm install
     startCommand: npm start
     envVars:
