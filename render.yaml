@@ -1,8 +1,8 @@
 databases:
   - name: ali-md-db
     plan: free
-    databaseName: ali-md
-    user: ali-md
+    databaseName: alimddb
+    user: alimduser
 
 services:
   - type: web
