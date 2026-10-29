@@ -5,13 +5,12 @@ databases:
     user: alimduser
 
 services:
-  - type: web
+  - type: worker
     name: black-hat-md
     runtime: node
     plan: free
     buildCommand: npm install
     startCommand: npm start
-    healthCheckPath: /health
     envVars:
       - key: SESSION_ID
         sync: false
